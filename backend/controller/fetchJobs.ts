@@ -21,7 +21,7 @@ const fetchJobs = async (req :Request , res:Response) => {
     }
 
     // 3. Sirf zaroori fields bhejo frontend ko
-    //@ts-ignore
+    
     const result = jobs.map(job => ({
       id: job.id,
       title: job.title,
